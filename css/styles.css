@@ -92,19 +92,19 @@ header li {
 
 header a {
     display: block;
-    color: #064D33;
+    color: #40484d;
     padding: 10px
 }
 
 header a:hover {
-    color: #064D33;
+    color: #40484d;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #064D33;
+    color: #40484d;
     text-decoration: none
 }
 
@@ -127,7 +127,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #064D33;
+    color: #40484d;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -144,7 +144,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #064D33
+    color: #40484d
 }
 
 #mobile-menu-close span {
@@ -210,7 +210,7 @@ footer {
 }
 
 .social a:hover {
-    color: #064D33
+    color: #40484d
 }
 
 .btn-rounded-white {
@@ -223,7 +223,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #064D33;
+    color: #40484d;
     background: #fff;
     text-decoration: none
 }
@@ -253,7 +253,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #064D33;
+    background: #40484d;
 }
 
 .background-alt {
@@ -295,7 +295,7 @@ footer {
 }
 
 #lead-content h2 {
-    color: #0cb979;
+    color: white;
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
@@ -309,7 +309,6 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgb(6,77,51, 0.9);
     z-index: 1
 }
 
@@ -392,7 +391,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #064D33;
+    background: #40484d;
     z-index: 0
 }
 
@@ -401,8 +400,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #064D33;
-    background: linear-gradient(to bottom, #064D33, rgba(52, 152, 219, 0));
+    background: #40484d;
+    background: linear-gradient(to bottom, #40484d, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -449,7 +448,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #064D33;
+    background: #40484d;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -607,7 +606,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #064D33;
+    background: #40484d;
     text-align: center
 }
 
@@ -675,7 +674,7 @@ footer {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #064D33;
+    color: #40484d;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
