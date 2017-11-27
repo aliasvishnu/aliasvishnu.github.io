@@ -533,7 +533,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -548,7 +548,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 250px;
     padding: 15px
 }
 
@@ -562,7 +562,13 @@ footer {
 .project-info p {
     color: #566067;
     margin: 0 0 15px 0;
-    font-size: 0.9em
+    font-size: 0.9em;
+}
+
+.project-info ul, .project-info li{
+    color: #566067;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
 }
 
 .no-image .project-info {
