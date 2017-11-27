@@ -262,11 +262,20 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h3 style = "color:white;">Here's how you can reach me .. </h3>
+        <h3 style = "color:white;"> Here's how you can reach me .. </h3>
         <p style = "color:white;">
-        +1 (858) 2912929 | sriram@ucsd.edu
+        Mobile - +1 (858) 2912929 <br> Email - sriram@ucsd.edu <br> or type your message below ..
     </p>
 
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/sriram@ucsd.edu">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
